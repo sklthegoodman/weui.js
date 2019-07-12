@@ -227,8 +227,8 @@ function picker() {
         // 这里获取一下计算后的样式，强制触发渲染. fix IOS10下闪现的问题
         $.getStyle($picker[0], 'transform');
 
-            //更改标题
-        $picker.find('.weui-half-screen-dialog__title').html(options.title);
+        //更改标题
+        $picker.find('.weui-half-screen-dialog__title').html(defaults.title);
         $picker.find('.weui-mask').addClass('weui-animate-fade-in');
         $picker.find('.weui-picker').addClass('weui-animate-slide-up');
     }

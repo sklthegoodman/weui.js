@@ -109,7 +109,6 @@ $.fn.scroll = function (options) {
     let startTime;                                              // 开始触摸的时间
     let translate;                                              // 缓存 translate
     const points = [];                                          // 记录移动点
-    const windowHeight = window.innerHeight;                    // 屏幕的高度
 
     // 首次触发选中事件
     // 如果有缓存的选项，则用缓存的选项，否则使用中间值。
